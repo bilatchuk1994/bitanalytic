@@ -1,0 +1,161 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.menus {
+		margin-left: -117px;
+	}
+
+	.online {
+		background-image: none;
+	}
+
+	br {
+		display: none;
+	}
+
+	ul.instr {
+		margin-left: -213px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.menu {
+		text-align: center;
+	}
+	.menus {
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	.sign {
+		float: none;
+		margin: 20px auto 0;
+	}
+	.online h1 {
+		top: 0px;
+		left: 0px;
+	}
+	.online {
+		background-image: none;
+		margin-bottom: 30px;
+	}
+	.mail-2 {
+		margin: 0 auto;
+	}
+	ul.instr {
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
+	input.input-sm {
+		width: 84px;
+	}
+	.table {
+		overflow-x: scroll;
+	}
+	table {
+		width: 1000px;
+	}
+	.access p {
+		margin-bottom: 20px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.mail {
+		width: 100%;
+	}
+	.email {
+		width: 95%;
+		margin-bottom: 10px;
+	}
+	.button {
+		width: 95%;
+		height: 40px;
+		margin-left: 0px;
+	}
+	.profit {
+		width: 100%;
+	}
+	.mail-2 {
+		margin: 0 auto;
+		width: 100%;
+	}
+	input.input-sm {
+		width: 84px;
+		margin-bottom: 20px;
+	}
+	.online h1 {
+		font-size: 37px;
+		margin: 20px 0 60px;
+	}
+	.sumas {
+		width: 100%;
+	}
+	.suma {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.bts {
+		width: 100%;
+	}
+	ul.stocks li img {
+		margin-bottom: 20px;
+	}
+
+	.top {
+    background-image: none;
+    background-color: rgb( 89, 90, 98 );
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.ui-widget.ui-widget-content {
+		width: 95%;
+	}
+
+	.outer {
+		width: 100%;
+	}
+
+	.calculate img {
+		width: 95%;
+	}
+	.free h1 {
+		font-size: 22px;
+	}
+
+	.online h1 {
+		font-size: 31px;
+	}
+	.online p {
+		font-size: 19px;
+	}
+	.online {
+		background-image: none;
+		margin-bottom: 0px;
+	}
+	.instr li {
+		display: inline-block;
+		margin-bottom: 10px;
+		list-style: none;
+	}
+	input.input-sm {
+		width: 84px;
+		margin-bottom: 0px;
+	}
+
+	.menus li {
+    display: inline;
+    margin-left: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}

@@ -1,0 +1,32 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Verdana";
+	src: url("../fonts/Verdana/Verdana.eot");
+	src: url("../fonts/Verdana/Verdana.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Verdana/Verdana.woff") format("woff"),
+	url("../fonts/Verdana/Verdana.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
